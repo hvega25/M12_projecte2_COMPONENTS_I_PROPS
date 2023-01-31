@@ -9,3 +9,5 @@ Activitat_pastisser = Escucha en el puerto 3003
 ## ------------------------------------------- ##
 En todo caso de que no se tenga las dependencias necesarias, se ejecuta el comando npm install
 para tener todo el package.json actualizado.
+
+------------> Pasaron cositas por eso hay commits y ramas raras.
