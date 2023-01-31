@@ -1,0 +1,36 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+}
+.pastisser-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+
+    border: 1px solid #000;
+    background-color: rgba(253, 183, 237, 0.35);
+    width: 60%;
+    margin: 15px auto;
+}
+.pastisser-container img {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+.pastisser-container .text-container {
+    line-height: 60px;
+    margin: 20px;
+}
+.pastisser-container .text-container h2 {
+    font-size: 30px;
+    text-align: left;
+}
+.pastisser-container .text-container p {
+    font-size: 20px;
+}

@@ -1,0 +1,63 @@
+body {
+    background: #c2c5c6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.App {
+    border: 2px solid #000;
+    width: 30%;
+    margin: 100px auto;
+
+}
+.personas {
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+.form {
+    font-size: 16px;
+    padding: 5px 0;
+}
+.form .container-input {
+    position: relative;
+    padding-top: 35px;
+    margin-bottom: 16px;
+}
+.form .container-input .datos::placeholder{
+    position: absolute;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.form .container-input .datos {
+    position: relative;
+    z-index: 1;
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+    height: auto;
+    padding: 3px 0 5px;
+    width: 100%;
+    background-color: #c2c5c6;
+}
+.form .container-input input[type="text"] {
+    text-indent: 20px;
+}
+.form .container-input .datos:focus {
+    border-bottom-color: rgb(64, 63, 63);
+    outline: none;
+}
+.boton {
+    display: grid;
+    justify-content: center;
+}
+.boton input {
+    border: none;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgb(131, 131, 131);
+    color: #fff;
+}
+.boton input:hover {
+    cursor: pointer;
+}
